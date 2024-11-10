@@ -1,0 +1,98 @@
+@import url('./fonts.css');
+@import url('./media.css');
+
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid #9267027f;
+}
+
+.header-wrapper {
+    background-color: #fff6e8;
+    max-width: 1540px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-name {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: fit-content;
+    margin-left: 8px;
+    gap: 8px;
+    align-items: center;
+    font-family: Arimo-SemiBold;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+}
+
+.my-job {
+    display: flex;
+    justify-content: space-between;
+    max-width: fit-content;
+    padding-left: 24px;
+    align-items: center;
+    font-family: Arimo-SemiBold;
+    font-size: 24px;
+    color: #4c1700;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    align-items: center;
+    font-family: Arimo-Regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    gap: 16px;
+    margin: 0, 20px, 0, 20px;
+}
+
+.nav-list-item {
+    color: #4b4b4b;
+}
+
+.nav-list-item:hover {
+    color: #4c1700;
+    font-family: Arimo-SemiBold;
+    padding-bottom: 2px;
+}
+
+.lang {
+    max-width: 26px;
+    max-height: 26px;
+}
+
+.burger-menu {
+    display: none;
+
+}
+
+.line {
+    display: block;
+    margin: 5px auto;
+    width: 26px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #4c1700;
+    transition: 0.3s;
+
+}

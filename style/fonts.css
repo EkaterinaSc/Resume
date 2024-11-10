@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Arimo-Regular";
+    src: local("Arimo-Regular"),
+      local("Arimo-Regular"),
+      url("./fonts/Arimo-Regular.woff2") format("woff2"),
+      url("./fonts/Arimo-Regular.woff") format("woff"),
+  }
+  
+  @font-face {
+    font-family: "Arimo-SemiBold";
+    src: local("Arimo-SemiBold"),
+      local("Arimo-SemiBold"),
+      url("./fonts/Arimo-SemiBold.woff2") format("woff2"),
+      url("./fonts/Arimo-SemiBold.woff") format("woff"),
+  }
