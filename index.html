@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/fonts.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/main-css.css">
+    <link rel="stylesheet" href="./style/main-section.css">
     <link rel="stylesheet" href="./style/media.css">
     <title>Resume</title>
 </head>
@@ -21,6 +22,9 @@
                     <span>Веб-разработчик</span>
                 </div>
             </a>
+            <div class ='header-photo'>
+                <img class = 'main-photo' src="./images/photo-small.jpg" alt="Photo">
+            </div>
             <ul class = 'nav'>
                 <li class = 'nav-list-item'>
                     <a href="#">ОБО МНЕ</a>
@@ -48,6 +52,99 @@
             </div>
         </div>
     </header>
+    <section class = 'main'>
+        <div class = 'content-wrapper'>
+            <section class = 'content'>
+                <article class = 'info-short'>
+                    <h2 class = 'article-title'>ОБО МНЕ</h2>
+                </article>
+                <article class = 'info-long'>
+                    <div class = 'info-long-right'>
+                        <h3>Добро пожаловать!</h3>
+                        <p>На этой странице Вы найдете полную информацию о моих профессиональных навыках и компетенциях. Для связи со мной можно воспользоваться любой из доступных <a href="#">социальных сетей</a></p>
+                    </div>
+                </article>
+            </section>
+            <section class = 'content'>
+                <article class = 'info-short'>
+                    <h2 class = 'article-title'>ОБРАЗОВАНИЕ</h2>
+                </article>
+                <article class = 'info-long'>
+                    <div class = 'info-long-left'>
+                        <ul class = 'year'>
+                            <li>2013</li>
+                            <li>2015</li>
+                            <li>2019</li>
+                            <li>2024</li>
+                        </ul>
+                    </div>
+                    <div class = 'info-long-right'>
+                        <ul class = 'year'>
+                            <li>ННГУ, бакалавр химии</li>
+                            <li>ННГУ, магистр химии</li>
+                            <li>ННГУ-Кельнский университет, PhD</li>
+                            <li>ННГУ, курс "Фронтенд-разработчик"</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+            <section class = 'content'>
+                <article class = 'info-short'>
+                    <h2 class = 'article-title'>МОИ ПРОЕКТЫ</h2>
+                </article>
+                <article class = 'info-long'>
+                    <div class = 'info-long-left'>
+                        <ul class = 'year'>
+                            <li>2017</li>
+                            <li>2020</li>
+                            <li>2022</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                    <div class = 'info-long-right'>
+                        <a href="#">DAAD</a>
+                        <a href="#">DAAD</a>
+                        <a href="#">DAAD</a>
+                        <a href="#">DAAD</a>
+                    </div>
+                </article>
+            </section>
+            <section class = 'content'>
+                <article class = 'info-short'>
+                    <h2 class = 'article-title'>КОНТАКТЫ</h2>
+                </article>
+                <article class = 'info-long'>
+                    <div class = 'contact-wrapper'>
+                        <form class = 'contact-form' action="" method="get">
+                            <label class = 'label'>
+                                Ваше имя:
+                                <input
+                                    type="text"
+                                    name="name">
+                            </label>
+                            <label>
+                                Электронная почта:
+                                <input
+                                    type="email"
+                                    name="email">
+                            </label>
+                            <label>
+                                Контактный телефон:
+                                <input
+                                    type="tel"
+                                    name="tel">
+                            </label>
+                            <label>
+                                Ваше сообщение:
+                                <input type="text">
+                            </label>
+                            <button class = 'submit' type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </section>
 
 </body>
 <script src="./index.js"></script>

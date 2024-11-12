@@ -1,10 +1,7 @@
-@import url('./fonts.css');
-@import url('./media.css');
 
 
 .header {
     background-color: white;
-    border-bottom: 1px solid #9267027f;
 }
 
 .header-wrapper {
@@ -17,19 +14,21 @@
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
+    gap: 10px;
 }
 
 .logo {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .my-name {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+    align-items: flex-start;
     max-width: fit-content;
-    margin-left: 8px;
     gap: 8px;
     align-items: center;
     font-family: Arimo-SemiBold;
@@ -46,16 +45,28 @@
     display: flex;
     justify-content: space-between;
     max-width: fit-content;
-    padding-left: 24px;
+    padding-left: 20px;
     align-items: center;
     font-family: Arimo-SemiBold;
     font-size: 24px;
     color: #4c1700;
 }
 
+.header-photo {
+    max-block-size: 10%;
+}
+
+.main-photo {
+    max-width: 90px;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid rgb(103, 52, 0);
+}
+
 .nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 800px;
     align-items: center;
@@ -63,7 +74,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     gap: 16px;
-    margin: 0, 20px, 0, 20px;
+    margin: 20px;
 }
 
 .nav-list-item {
@@ -83,7 +94,6 @@
 
 .burger-menu {
     display: none;
-
 }
 
 .line {
@@ -94,5 +104,4 @@
     border-radius: 2px;
     background-color: #4c1700;
     transition: 0.3s;
-
 }
