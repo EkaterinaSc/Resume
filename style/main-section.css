@@ -21,23 +21,37 @@ font-family: Arimo-Regular;
     grid-template-columns: 1fr 3fr;
     grid-auto-flow: column;
     padding: 20px;
+    border-bottom: 1px solid rgba(146, 97, 32, 0.9);
+    font-family: Arimo-Regular;
+    font-size: 20px;
 }
 
 .info-short {
     display:flex;
     flex-wrap: nowrap;
-    width: 150px;
     justify-content:flex-end;
     align-items: center;
     font-family: Arimo-SemiBold;
     font-size: 80%;
 }
+
+.info-short h2 {
+    letter-spacing: 2px;
+}
+
 .info-long {
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
+.info-long-contact {
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+}
+
 .info-long-left {
     display:flex;
     flex-wrap: wrap;
@@ -58,33 +72,43 @@ font-family: Arimo-Regular;
     padding-left: 20px;
 }
 
+.info-long-right h3 {
+    letter-spacing: 2px;
+}
+
 .info-long-right p {
     max-width: 80%;
     word-break: normal;
 }
 
-
-
 .year {
     padding-inline-start: 0px;
 }
 
+.soc-net {
+    font-family: Arimo-SemiBold;
+    color:blue;
+}
+
 .contact-form {
     display:flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .submit {
     align-items: center;
     width: 60%;
-    background-color: rgba(194, 129, 43, 0.838);
+    background-color: #fff6e8;
     border: 2px solid rgba(146, 97, 32, 0.9);
-    box-shadow: 1px;
-    border-radius: 5%;
+    border-radius: 16px;
     cursor:pointer;
+
 }
 
 .submit:hover {
-    padding-bottom: 2px;
+    background-color: rgb(68, 197, 160);
+    border: 2px solid rgba(32, 146, 93, 0.9);
 }

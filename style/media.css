@@ -18,13 +18,14 @@
             gap: 16px;
             letter-spacing: 1px;
             transition: 0.3s;
-            background-color: aqua;
+            background-color: #fff6e8;
         }
 
             .active {
                 position: fixed;
                 left: 300px;
-                z-index: 22;
+                top: 120px;
+                z-index: 2;
             }
         
         .burger-menu {
@@ -57,6 +58,11 @@
 
         .info-short {
             justify-content: flex-start;
+        }
+
+        .cat {
+            max-width: 60px;
+            height: auto;
         }
 
     }    
